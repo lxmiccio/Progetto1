@@ -14,9 +14,9 @@ public class Voce
 	 */
 	public Voce(String name, String surname, String number)
 	{
-		this.name = name;
-		this.surname = surname;
-		this.number = number;
+		this.name = new String(name);
+		this.surname = new String(surname);
+		this.number = new String(number);
 	}
 
 	public String getName()
@@ -51,6 +51,6 @@ public class Voce
 
 	@Override public String toString()
 	{
-		return "Voce [name=" + name + ", surname=" + surname + ", number=" + number + "]";
+		return "Voce [Name=" + name + ", Surname=" + surname + ", Number=" + number + "]";
 	}
 }

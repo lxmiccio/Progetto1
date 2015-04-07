@@ -5,7 +5,7 @@ import java.io.*;
 import rubrica.Rubrica;
 import rubrica.Voce;
 
-public class progetto1
+public class Progetto1
 {
 	/**
 	 * Main.

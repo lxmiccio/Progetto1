@@ -41,7 +41,7 @@ public class Rubrica
 		}
 		catch(IndexOutOfBoundsException error)
 		{
-			System.out.println("Index is out of bounds");
+			System.out.println("Index out of bounds" + ", cannot delete entry." + "\n");
 		}
 	}
 
@@ -51,7 +51,7 @@ public class Rubrica
 	public void print()
 	{
 		for(int counter = 0; counter < list.size(); counter++)
-			System.out.println("Name: " + list.elementAt(counter).getName() + ", Surname: " + list.elementAt(counter).getSurname() + ", Number: " + list.elementAt(counter).getNumber());
+			System.out.println("Position: " + (counter+1) + ", " + this.list.elementAt(counter));
 	}
 
 	public Vector<Voce> getList()
